@@ -230,6 +230,10 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+// boring old stuff
+// wow cool new stuff!
+very_cool = 1;
+
 
 /* USER CODE END 4 */
 
