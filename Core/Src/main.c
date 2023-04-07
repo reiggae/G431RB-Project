@@ -35,7 +35,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+#define Michelle 123
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
