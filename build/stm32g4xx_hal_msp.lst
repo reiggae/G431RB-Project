@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.HAL_MspInit,"ax",%progbits
-  20              		.align	1
-  21              		.global	HAL_MspInit
-  22              		.syntax unified
-  23              		.thumb
-  24              		.thumb_func
-  26              	HAL_MspInit:
-  27              	.LFB132:
-  28              		.file 1 "Core/Src/stm32g4xx_hal_msp.c"
+  19              		.file 1 "Core/Src/stm32g4xx_hal_msp.c"
+  20              		.section	.text.HAL_MspInit,"ax",%progbits
+  21              		.align	1
+  22              		.global	HAL_MspInit
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	HAL_MspInit:
+  28              	.LFB132:
    1:Core/Src/stm32g4xx_hal_msp.c **** /* USER CODE BEGIN Header */
    2:Core/Src/stm32g4xx_hal_msp.c **** /**
    3:Core/Src/stm32g4xx_hal_msp.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
   28:Core/Src/stm32g4xx_hal_msp.c **** /* USER CODE BEGIN TD */
   29:Core/Src/stm32g4xx_hal_msp.c **** 
   30:Core/Src/stm32g4xx_hal_msp.c **** /* USER CODE END TD */
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 2
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 2
 
 
   31:Core/Src/stm32g4xx_hal_msp.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
   44 0008 42F00102 		orr	r2, r2, #1
   45 000c 1A66     		str	r2, [r3, #96]
   46              		.loc 1 69 3 view .LVU4
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 3
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 3
 
 
   47 000e 1A6E     		ldr	r2, [r3, #96]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
   91              	HAL_UART_MspInit:
   92              	.LVL1:
   93              	.LFB133:
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 4
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 4
 
 
   82:Core/Src/stm32g4xx_hal_msp.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
  100:Core/Src/stm32g4xx_hal_msp.c ****   */
  101:Core/Src/stm32g4xx_hal_msp.c ****     PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_LPUART1;
  102:Core/Src/stm32g4xx_hal_msp.c ****     PeriphClkInit.Lpuart1ClockSelection = RCC_LPUART1CLKSOURCE_PCLK1;
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 5
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 5
 
 
  103:Core/Src/stm32g4xx_hal_msp.c ****     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
  109:Core/Src/stm32g4xx_hal_msp.c **** 
  152              		.loc 1 109 5 is_stmt 1 view .LVU32
  153              	.LBB4:
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 6
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 6
 
 
  109:Core/Src/stm32g4xx_hal_msp.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
  118:Core/Src/stm32g4xx_hal_msp.c ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  192              		.loc 1 118 26 is_stmt 0 view .LVU49
  193 0060 0022     		movs	r2, #0
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 7
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 7
 
 
  194 0062 1592     		str	r2, [sp, #84]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
  235              		.loc 1 137 1 is_stmt 0 view .LVU58
  236 0000 08B5     		push	{r3, lr}
  237              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 8
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 8
 
 
  238              		.cfi_offset 3, -8
@@ -478,38 +478,219 @@ ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 1
  269              	.L17:
  270 0024 00800040 		.word	1073774592
  271 0028 00100240 		.word	1073876992
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 9
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 9
 
 
  272              		.cfi_endproc
  273              	.LFE134:
- 275              		.text
- 276              	.Letext0:
- 277              		.file 2 "c:\\users\\reiam\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
- 278              		.file 3 "c:\\users\\reiam\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
- 279              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
- 280              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
- 281              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h"
- 282              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
- 283              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
- 284              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
- 285              		.file 10 "Core/Inc/main.h"
- 286              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
- 287              		.file 12 "<built-in>"
-ARM GAS  C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s 			page 10
+ 275              		.section	.text.HAL_TIM_Base_MspInit,"ax",%progbits
+ 276              		.align	1
+ 277              		.global	HAL_TIM_Base_MspInit
+ 278              		.syntax unified
+ 279              		.thumb
+ 280              		.thumb_func
+ 282              	HAL_TIM_Base_MspInit:
+ 283              	.LVL13:
+ 284              	.LFB135:
+ 158:Core/Src/stm32g4xx_hal_msp.c **** 
+ 159:Core/Src/stm32g4xx_hal_msp.c **** /**
+ 160:Core/Src/stm32g4xx_hal_msp.c **** * @brief TIM_Base MSP Initialization
+ 161:Core/Src/stm32g4xx_hal_msp.c **** * This function configures the hardware resources used in this example
+ 162:Core/Src/stm32g4xx_hal_msp.c **** * @param htim_base: TIM_Base handle pointer
+ 163:Core/Src/stm32g4xx_hal_msp.c **** * @retval None
+ 164:Core/Src/stm32g4xx_hal_msp.c **** */
+ 165:Core/Src/stm32g4xx_hal_msp.c **** void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
+ 166:Core/Src/stm32g4xx_hal_msp.c **** {
+ 285              		.loc 1 166 1 is_stmt 1 view -0
+ 286              		.cfi_startproc
+ 287              		@ args = 0, pretend = 0, frame = 8
+ 288              		@ frame_needed = 0, uses_anonymous_args = 0
+ 167:Core/Src/stm32g4xx_hal_msp.c ****   if(htim_base->Instance==TIM2)
+ 289              		.loc 1 167 3 view .LVU68
+ 290              		.loc 1 167 15 is_stmt 0 view .LVU69
+ 291 0000 0368     		ldr	r3, [r0]
+ 292              		.loc 1 167 5 view .LVU70
+ 293 0002 B3F1804F 		cmp	r3, #1073741824
+ 294 0006 00D0     		beq	.L25
+ 295 0008 7047     		bx	lr
+ 296              	.L25:
+ 166:Core/Src/stm32g4xx_hal_msp.c ****   if(htim_base->Instance==TIM2)
+ 297              		.loc 1 166 1 view .LVU71
+ 298 000a 00B5     		push	{lr}
+ 299              		.cfi_def_cfa_offset 4
+ 300              		.cfi_offset 14, -4
+ 301 000c 83B0     		sub	sp, sp, #12
+ 302              		.cfi_def_cfa_offset 16
+ 168:Core/Src/stm32g4xx_hal_msp.c ****   {
+ 169:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspInit 0 */
+ 170:Core/Src/stm32g4xx_hal_msp.c **** 
+ 171:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE END TIM2_MspInit 0 */
+ 172:Core/Src/stm32g4xx_hal_msp.c ****     /* Peripheral clock enable */
+ 173:Core/Src/stm32g4xx_hal_msp.c ****     __HAL_RCC_TIM2_CLK_ENABLE();
+ 303              		.loc 1 173 5 is_stmt 1 view .LVU72
+ 304              	.LBB6:
+ 305              		.loc 1 173 5 view .LVU73
+ 306              		.loc 1 173 5 view .LVU74
+ 307 000e 03F50433 		add	r3, r3, #135168
+ 308 0012 9A6D     		ldr	r2, [r3, #88]
+ 309 0014 42F00102 		orr	r2, r2, #1
+ 310 0018 9A65     		str	r2, [r3, #88]
+ 311              		.loc 1 173 5 view .LVU75
+ 312 001a 9B6D     		ldr	r3, [r3, #88]
+ 313 001c 03F00103 		and	r3, r3, #1
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 10
+
+
+ 314 0020 0193     		str	r3, [sp, #4]
+ 315              		.loc 1 173 5 view .LVU76
+ 316 0022 019B     		ldr	r3, [sp, #4]
+ 317              	.LBE6:
+ 318              		.loc 1 173 5 view .LVU77
+ 174:Core/Src/stm32g4xx_hal_msp.c ****     /* TIM2 interrupt Init */
+ 175:Core/Src/stm32g4xx_hal_msp.c ****     HAL_NVIC_SetPriority(TIM2_IRQn, 0, 0);
+ 319              		.loc 1 175 5 view .LVU78
+ 320 0024 0022     		movs	r2, #0
+ 321 0026 1146     		mov	r1, r2
+ 322 0028 1C20     		movs	r0, #28
+ 323              	.LVL14:
+ 324              		.loc 1 175 5 is_stmt 0 view .LVU79
+ 325 002a FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 326              	.LVL15:
+ 176:Core/Src/stm32g4xx_hal_msp.c ****     HAL_NVIC_EnableIRQ(TIM2_IRQn);
+ 327              		.loc 1 176 5 is_stmt 1 view .LVU80
+ 328 002e 1C20     		movs	r0, #28
+ 329 0030 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 330              	.LVL16:
+ 177:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspInit 1 */
+ 178:Core/Src/stm32g4xx_hal_msp.c **** 
+ 179:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE END TIM2_MspInit 1 */
+ 180:Core/Src/stm32g4xx_hal_msp.c ****   }
+ 181:Core/Src/stm32g4xx_hal_msp.c **** 
+ 182:Core/Src/stm32g4xx_hal_msp.c **** }
+ 331              		.loc 1 182 1 is_stmt 0 view .LVU81
+ 332 0034 03B0     		add	sp, sp, #12
+ 333              		.cfi_def_cfa_offset 4
+ 334              		@ sp needed
+ 335 0036 5DF804FB 		ldr	pc, [sp], #4
+ 336              		.cfi_endproc
+ 337              	.LFE135:
+ 339              		.section	.text.HAL_TIM_Base_MspDeInit,"ax",%progbits
+ 340              		.align	1
+ 341              		.global	HAL_TIM_Base_MspDeInit
+ 342              		.syntax unified
+ 343              		.thumb
+ 344              		.thumb_func
+ 346              	HAL_TIM_Base_MspDeInit:
+ 347              	.LVL17:
+ 348              	.LFB136:
+ 183:Core/Src/stm32g4xx_hal_msp.c **** 
+ 184:Core/Src/stm32g4xx_hal_msp.c **** /**
+ 185:Core/Src/stm32g4xx_hal_msp.c **** * @brief TIM_Base MSP De-Initialization
+ 186:Core/Src/stm32g4xx_hal_msp.c **** * This function freeze the hardware resources used in this example
+ 187:Core/Src/stm32g4xx_hal_msp.c **** * @param htim_base: TIM_Base handle pointer
+ 188:Core/Src/stm32g4xx_hal_msp.c **** * @retval None
+ 189:Core/Src/stm32g4xx_hal_msp.c **** */
+ 190:Core/Src/stm32g4xx_hal_msp.c **** void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
+ 191:Core/Src/stm32g4xx_hal_msp.c **** {
+ 349              		.loc 1 191 1 is_stmt 1 view -0
+ 350              		.cfi_startproc
+ 351              		@ args = 0, pretend = 0, frame = 0
+ 352              		@ frame_needed = 0, uses_anonymous_args = 0
+ 353              		.loc 1 191 1 is_stmt 0 view .LVU83
+ 354 0000 08B5     		push	{r3, lr}
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 11
+
+
+ 355              		.cfi_def_cfa_offset 8
+ 356              		.cfi_offset 3, -8
+ 357              		.cfi_offset 14, -4
+ 192:Core/Src/stm32g4xx_hal_msp.c ****   if(htim_base->Instance==TIM2)
+ 358              		.loc 1 192 3 is_stmt 1 view .LVU84
+ 359              		.loc 1 192 15 is_stmt 0 view .LVU85
+ 360 0002 0368     		ldr	r3, [r0]
+ 361              		.loc 1 192 5 view .LVU86
+ 362 0004 B3F1804F 		cmp	r3, #1073741824
+ 363 0008 00D0     		beq	.L29
+ 364              	.LVL18:
+ 365              	.L26:
+ 193:Core/Src/stm32g4xx_hal_msp.c ****   {
+ 194:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspDeInit 0 */
+ 195:Core/Src/stm32g4xx_hal_msp.c **** 
+ 196:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE END TIM2_MspDeInit 0 */
+ 197:Core/Src/stm32g4xx_hal_msp.c ****     /* Peripheral clock disable */
+ 198:Core/Src/stm32g4xx_hal_msp.c ****     __HAL_RCC_TIM2_CLK_DISABLE();
+ 199:Core/Src/stm32g4xx_hal_msp.c **** 
+ 200:Core/Src/stm32g4xx_hal_msp.c ****     /* TIM2 interrupt DeInit */
+ 201:Core/Src/stm32g4xx_hal_msp.c ****     HAL_NVIC_DisableIRQ(TIM2_IRQn);
+ 202:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspDeInit 1 */
+ 203:Core/Src/stm32g4xx_hal_msp.c **** 
+ 204:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE END TIM2_MspDeInit 1 */
+ 205:Core/Src/stm32g4xx_hal_msp.c ****   }
+ 206:Core/Src/stm32g4xx_hal_msp.c **** 
+ 207:Core/Src/stm32g4xx_hal_msp.c **** }
+ 366              		.loc 1 207 1 view .LVU87
+ 367 000a 08BD     		pop	{r3, pc}
+ 368              	.LVL19:
+ 369              	.L29:
+ 198:Core/Src/stm32g4xx_hal_msp.c **** 
+ 370              		.loc 1 198 5 is_stmt 1 view .LVU88
+ 371 000c 044A     		ldr	r2, .L30
+ 372 000e 936D     		ldr	r3, [r2, #88]
+ 373 0010 23F00103 		bic	r3, r3, #1
+ 374 0014 9365     		str	r3, [r2, #88]
+ 201:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspDeInit 1 */
+ 375              		.loc 1 201 5 view .LVU89
+ 376 0016 1C20     		movs	r0, #28
+ 377              	.LVL20:
+ 201:Core/Src/stm32g4xx_hal_msp.c ****   /* USER CODE BEGIN TIM2_MspDeInit 1 */
+ 378              		.loc 1 201 5 is_stmt 0 view .LVU90
+ 379 0018 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 380              	.LVL21:
+ 381              		.loc 1 207 1 view .LVU91
+ 382 001c F5E7     		b	.L26
+ 383              	.L31:
+ 384 001e 00BF     		.align	2
+ 385              	.L30:
+ 386 0020 00100240 		.word	1073876992
+ 387              		.cfi_endproc
+ 388              	.LFE136:
+ 390              		.text
+ 391              	.Letext0:
+ 392              		.file 2 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
+ 393              		.file 3 "c:\\users\\brand\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 12
+
+
+ 394              		.file 4 "c:\\users\\brand\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 395              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+ 396              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h"
+ 397              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
+ 398              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
+ 399              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h"
+ 400              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+ 401              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
+ 402              		.file 12 "Core/Inc/main.h"
+ 403              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
+ 404              		.file 14 "<built-in>"
+ARM GAS  C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_msp.c
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:20     .text.HAL_MspInit:0000000000000000 $t
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:26     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:80     .text.HAL_MspInit:0000000000000034 $d
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:85     .text.HAL_UART_MspInit:0000000000000000 $t
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:91     .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:216    .text.HAL_UART_MspInit:000000000000007c $d
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:222    .text.HAL_UART_MspDeInit:0000000000000000 $t
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:228    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-C:\Users\reiam\AppData\Local\Temp\ccPQOxWf.s:270    .text.HAL_UART_MspDeInit:0000000000000024 $d
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:21     .text.HAL_MspInit:0000000000000000 $t
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:27     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:80     .text.HAL_MspInit:0000000000000034 $d
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:85     .text.HAL_UART_MspInit:0000000000000000 $t
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:91     .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:216    .text.HAL_UART_MspInit:000000000000007c $d
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:222    .text.HAL_UART_MspDeInit:0000000000000000 $t
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:228    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:270    .text.HAL_UART_MspDeInit:0000000000000024 $d
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:276    .text.HAL_TIM_Base_MspInit:0000000000000000 $t
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:282    .text.HAL_TIM_Base_MspInit:0000000000000000 HAL_TIM_Base_MspInit
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:340    .text.HAL_TIM_Base_MspDeInit:0000000000000000 $t
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:346    .text.HAL_TIM_Base_MspDeInit:0000000000000000 HAL_TIM_Base_MspDeInit
+C:\Users\Brand\AppData\Local\Temp\ccCnrKs5.s:386    .text.HAL_TIM_Base_MspDeInit:0000000000000020 $d
 
 UNDEFINED SYMBOLS
 HAL_PWREx_DisableUCPDDeadBattery
@@ -518,3 +699,6 @@ HAL_RCCEx_PeriphCLKConfig
 HAL_GPIO_Init
 Error_Handler
 HAL_GPIO_DeInit
+HAL_NVIC_SetPriority
+HAL_NVIC_EnableIRQ
+HAL_NVIC_DisableIRQ
